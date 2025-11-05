@@ -8,6 +8,7 @@ h3 {
     float: left;
     margin-bottom: 12px;
     margin-top: 0px;
+    vertical-align: center;
 }
 
 /* detail size font not working */
@@ -35,11 +36,15 @@ h4 {
     margin-bottom: 12px 0;
 }
 
-.img {
-    text-align: left;
+.profile-picture {
+    float: left;
+    display: block;
     border-radius: 100px;
     width: 32px;
     height: 32px;
+    margin-right: 12px;
+    margin-left: 12px;
+    vertical-align: center;
 }
 
 
@@ -66,11 +71,13 @@ h4 {
 }
 
 .user-name-text {
-    float: left;
+    float: none; /* override global h3 float */
+    display: inline-block;
+    vertical-align: middle;
     text-align: left;
     font-weight: bold;
     color: #f1f1f1;
-    margin-left: 12px;
+    margin-left: 0;
 
 }
 
@@ -81,6 +88,7 @@ h4 {
     color: black;
     width: 85px;
     height: 37px;
+    vertical-align: center;
 }
 
 .buttons-container {
@@ -90,6 +98,7 @@ h4 {
     flex-direction: row;
     justify-content: right;
     margin-bottom: 0px;
+   vertical-align: center;
 
 
 }
