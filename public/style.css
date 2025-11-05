@@ -35,9 +35,11 @@ h4 {
     margin-bottom: 12px 0;
 }
 
-.profile-picture {
+.img {
     text-align: left;
-    border-radius: 25px;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -151,6 +153,7 @@ button {
     /* THIS REMOVES STYLING FROM NATIVE BUTTONS */
     border: none;
     border-radius: 10px;
+    
 
 
 
